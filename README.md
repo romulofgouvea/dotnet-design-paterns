@@ -48,5 +48,5 @@ Estes padrões são voltados aos algoritmos e a designação de responsabilidade
 
 ## **Referências**
 
-[Refactoring Guru](https://refactoring.guru/pt-br/design-patterns/catalog)
-[Dofactory](https://www.dofactory.com/net/design-patterns)
+- [Refactoring Guru](https://refactoring.guru/pt-br/design-patterns/catalog)
+- [Dofactory](https://www.dofactory.com/net/design-patterns)
