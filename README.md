@@ -8,7 +8,7 @@ Estes padrões fornecem vários mecanismo de criação de objetos, que aumentam 
 - [ ] Abstract Factory
 - [ ] Builder
 - [ ] Prototype
-- [ ] Singleton
+- [X] Singleton
 
 ## **Padrões Estruturais**
 
