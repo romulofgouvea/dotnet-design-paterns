@@ -40,11 +40,9 @@ Estes padrões são voltados aos algoritmos e a designação de responsabilidade
 - [ ] Visitor
 
 ## **Outros Padrões**
+
 - [ ] DDD(Domain Driven Design)
 - [ ] Repository Patern
-
-
-
 
 ## **Referências**
 
