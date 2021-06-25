@@ -21,6 +21,7 @@ namespace ImplementacaoMultiThread
         {
             get
             {
+                // Com a verificação antes do lock o bloqueio é realizado apenas 1 vez
                 if (instance is null)
                 {
                     lock (lockObject)

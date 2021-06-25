@@ -20,6 +20,8 @@ namespace ImplementacaoMultiThread
         {
             get
             {
+                //É oneroso pois toda vez que chamar a classe o bloqueio é feito primeiro
+                //que a verificação da existencia de uma instancia.
                 lock (lockObject)
                 {
                     if (instance is null)
