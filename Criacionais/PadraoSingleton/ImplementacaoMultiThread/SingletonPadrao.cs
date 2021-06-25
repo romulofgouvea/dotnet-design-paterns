@@ -1,29 +1,29 @@
 using System;
 
-namespace ImplementacaoPadrao
+namespace ImplementacaoMultiThread
 {
-    public class Singleton
+    public class SingletonPadrao
     {
         //Verificar as instancias geradas.
         private int numeroInstancias = 0;
 
-        private static Singleton instance;
+        private static SingletonPadrao instance = null;
 
         //Definido privado para não ser instanciado
-        private Singleton()
+        private SingletonPadrao()
         {
             numeroInstancias++;
-            Console.WriteLine($"(PadraoSingleton) Instâncias: {numeroInstancias.ToString()}");
+            Console.WriteLine($"(SingletonPadrao) Instâncias: {numeroInstancias.ToString()}");
         }
 
-        public static Singleton Instance
+        public static SingletonPadrao Instance
         {
             get
             {
                 if (instance is null)
                 {
                     Console.WriteLine("Criando a instância");
-                    instance = new Singleton();
+                    instance = new SingletonPadrao();
                 }
                 else
                 {

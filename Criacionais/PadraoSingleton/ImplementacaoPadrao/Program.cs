@@ -1,7 +1,6 @@
 ﻿using System;
-using PadraoSingleton.ImplementacaoPadrao;
 
-namespace PadraoSingleton
+namespace ImplementacaoPadrao
 {
     class Program
     {
