@@ -10,12 +10,12 @@ namespace Factory
 
         public void Preparar()
         {
-            Console.WriteLine("Preparando");
+            Console.WriteLine($"Preparando a {Nome}");
         }
 
-        public void IrParaOForno()
+        public void Assar()
         {
-            Console.WriteLine("Indo para o forno");
+            Console.WriteLine("Assando");
         }
 
         public void Fatiar()
@@ -30,7 +30,7 @@ namespace Factory
 
         public void ProntaParaEntrega()
         {
-            Console.WriteLine("Pronta para entrega.");
+            Console.WriteLine($"A {Nome} ficou pronta para entrega.");
         }
     }
 }

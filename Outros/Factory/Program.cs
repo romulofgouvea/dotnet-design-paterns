@@ -6,24 +6,13 @@ namespace Factory
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Escolha um tipo de pizza:");
-            var tipoPizza = Console.ReadLine();
+            Console.WriteLine("Escolha um tipo de pizza: (C - Calabresa, P - Portuguesa");
+            var tipoPizza = Console.ReadLine().ToUpper();
 
-            Pizza pizza = null;
-            switch (tipoPizza.ToUpper())
-            {
-                case "C":
-                    pizza = new PizzaCalabresa();
-                    break;
-                case "P":
-                    pizza = new PizzaPortuguesa();
-                    break;
-                default:
-                    throw new ApplicationException("Não existe essa pizza em nosso cardápio.");
-            }
+            var pizza = Loja1Factory.CriarPizza(tipoPizza);
             
             pizza.Preparar();
-            pizza.IrParaOForno();
+            pizza.Assar();
             pizza.Fatiar();
             pizza.Embalar();
             pizza.ProntaParaEntrega();
