@@ -6,7 +6,7 @@ Estes padrões fornecem vários mecanismo de criação de objetos, que aumentam 
 
 - [x] Factory Method
 - [x] Abstract Factory
-- [ ] Builder
+- [x] Builder
 - [ ] Prototype
 - [x] Singleton
 
