@@ -4,11 +4,11 @@
 
 Estes padrões fornecem vários mecanismo de criação de objetos, que aumentam a flexibilidade e reutilização de código já existente.
 
-- [ ] Factory Method
+- [x] Factory Method
 - [ ] Abstract Factory
 - [ ] Builder
 - [ ] Prototype
-- [X] Singleton
+- [x] Singleton
 
 ## **Padrões Estruturais**
 
@@ -43,7 +43,7 @@ Estes padrões são voltados aos algoritmos e a designação de responsabilidade
 
 - [ ] Unity of Work
 - [ ] Repository Patern
-- [X] Factory
+- [x] Factory
 
 ## **Referências**
 
