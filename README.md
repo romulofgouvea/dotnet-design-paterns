@@ -5,7 +5,7 @@
 Estes padrões fornecem vários mecanismo de criação de objetos, que aumentam a flexibilidade e reutilização de código já existente.
 
 - [x] Factory Method
-- [ ] Abstract Factory
+- [x] Abstract Factory
 - [ ] Builder
 - [ ] Prototype
 - [x] Singleton
