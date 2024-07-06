@@ -7,15 +7,14 @@ Estes padrões fornecem vários mecanismo de criação de objetos, que aumentam 
 - [x] Factory Method
 - [x] Abstract Factory
 - [x] Builder
-- [ ] Prototype
+- [x] Prototype
 - [x] Singleton
 
 ## **Padrões Estruturais**
 
 Estes padrões explicam montar objetos e classes em estruturas maiores mas ainda mantendo essas estruturas flexíveis e eficientes.
 
-- [ ] Adapter Class
-- [ ] Adapter Object
+- [x] Adapter
 - [ ] Bridge
 - [ ] Composite
 - [ ] Decorator
